@@ -142,6 +142,18 @@ abbr {
 
 .section .foto {
     padding: 0 20px;
+
+    &:active {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1000px solid transparent;
+        background-color: rgba(0, 0, 0, 0.877);
+        backdrop-filter: blur(10px);
+        z-index: 1000000;
+        zoom: 1.5;
+    }
 }
 
 .text-img {
