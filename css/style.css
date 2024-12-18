@@ -378,6 +378,7 @@ footer {
 
 @keyframes fly-in {
     0% {
+        pointer-events: none;
         transform: translateX(20em) translateY(-50%);
         cursor: default;
         border-radius: 10px;
@@ -389,6 +390,7 @@ footer {
     }
 
     100% {
+        pointer-events: none;
         border-radius: 10px;
         pointer-events: auto;
         padding: 1px;
