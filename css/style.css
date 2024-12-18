@@ -343,12 +343,8 @@ footer {
         scroll-behavior: smooth;
         background-color: #00796b;
         margin: 0;
-
         cursor: default;
         z-index: 10000;
-
-
-
 
         & .opciones {
             transition: transform 0.15s linear, opacity 0.15s linear 0.1s, padding 0.15s linear 0.2s;
@@ -392,7 +388,6 @@ footer {
     100% {
         pointer-events: none;
         border-radius: 10px;
-        pointer-events: auto;
         padding: 1px;
         width: 32px;
         height: 32px;
