@@ -325,6 +325,7 @@ footer {
     margin: 0;
 
     .ico {
+        display: none;
         transform: scale(0) translateX(20px);
         transition: all 0.1s linear 0.05s;
         width: 0px;
